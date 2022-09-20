@@ -50,7 +50,7 @@ public class Processo {
 	public static void incluirPid(List<Processo> lista) {
 		Random numeroAleatorio = new Random();
 		List<Integer> valoresPid = new ArrayList<Integer>();
-		for(int i = 1; i < 51; i++) {
+		for(int i = 1; i <= 50; i++) {
 			valoresPid.add(i);
 		} 
 		
